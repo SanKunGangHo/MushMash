@@ -52,5 +52,5 @@
         "Temp/": true
     },
     "dotnet.preferCSharpExtension": true,
-    "dotnet.defaultSolution": "PostMario.sln"
+    "dotnet.defaultSolution": "MushMash.sln"
 }
