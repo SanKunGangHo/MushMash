@@ -25,6 +25,8 @@ public class CreditThankyouUI : MonoBehaviour
     private void OnVideoEnd(VideoPlayer vp)
     {
         thankyou.SetActive(true);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
         Invoke("SceneChanger", 2f);
     }
 
